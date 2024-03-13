@@ -103,6 +103,8 @@ struct can_ctrlmode {
 #define CAN_CTRLMODE_CC_LEN8_DLC	0x100	/* Classic CAN DLC option */
 #define CAN_CTRLMODE_TDC_AUTO		0x200	/* CAN transiver automatically calculates TDCV */
 #define CAN_CTRLMODE_TDC_MANUAL		0x400	/* TDCV is manually set up by user */
+#define CAN_CTRLMODE_LIN		0x800	/* LIN bus mode */
+#define CAN_CTRLMODE_LIN_COMMANDER	0x1000	/* LIN bus specific commander mode */
 
 /*
  * CAN device statistics
